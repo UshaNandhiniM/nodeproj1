@@ -1,21 +1,37 @@
 NodeJS File system
+
 This Task Create a text file in timestamp folder and filename in current time.txt.
+
 Using nodemon which each and every time will refresh that page Text file will create in a particular folder.
+
 Base URL:
+
 http://localhost:400
+
 Packages used
+
 Express
+
 nodemon
+
 path
+
 Date-fns
 
 EndPoints:
+
 To create
+
 url:/
+
 Generates a textfile in a folder named TimeStamp.the content of the file is the current timestamp. the file also created as a current time.txt [dd-mm-yyyy hh-mm-ss.txt].
+
 To Read
+
 url:/getTxtFiles
+
 will read retreive and return a list of all the file the same folder.
+
 create
 
 
